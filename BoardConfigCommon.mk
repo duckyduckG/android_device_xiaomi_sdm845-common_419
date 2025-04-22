@@ -30,6 +30,9 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := kryo385
 TARGET_BOOTLOADER_BOARD_NAME := sdm845
 TARGET_NO_BOOTLOADER := true
 
+# Camera - Torch
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(COMMON_PATH):libcameraservice_extension.sdm845
+
 # Display
 TARGET_DISABLED_UBWC := true
 
