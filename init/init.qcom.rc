@@ -239,11 +239,14 @@ on boot
 
     chown system system /sys/class/drm/card0-DSI-1/disp_param
     chmod 0644 /sys/class/drm/card0-DSI-1/disp_param
+    chmod 0664 /sys/class/power_supply/battery/dc_thermal_levels
+    chown system system /sys/class/thermal/thermal_message/sconfig
+    chown system system /sys/class/thermal/thermal_message/balance_mode
+    chown cameraserver cameraserver /sys/class/thermal/thermal_message/flash_state
 
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_ui
     chmod 0644 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_ui
 
-    chown system system /sys/class/thermal/thermal_message/sconfig
     chown root system /sys/bus/i2c/devices/3-0050/pressure
 
     # Sensors log dir
@@ -694,15 +697,6 @@ service spdaemon /vendor/bin/spdaemon
     class core
     user system
     group system
-
-service thermal-engine /system/vendor/bin/thermal-engine
-    class main
-    user root
-    socket thermal-send-client stream 0666 system system
-    socket thermal-recv-client stream 0660 system system
-    socket thermal-recv-passive-client stream 0666 system system
-    socket thermal-send-rule stream 0660 system system
-    group root
 
 on property:init.svc.zygote=stopped
     stop ppd
