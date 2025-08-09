@@ -99,6 +99,10 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     tinymix
 
+# OSS soundtrigger
+PRODUCT_PACKAGES += \
+    sound_trigger.primary.sdm845
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     liba2dpoffload
