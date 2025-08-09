@@ -30,27 +30,11 @@ vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
 
 # Audio
-vendor/lib/hw/audio.primary.sdm845.so
-vendor/lib/vndk/libxlog.so
 vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioparsers.so
-vendor/lib/libaudioroute_ext.so
 vendor/lib/libqtigef.so
-
-# Audio extensions
-vendor/lib/liba2dpoffload.so
-vendor/lib/libbatterylistener.so
-vendor/lib/libcomprcapture.so
-vendor/lib/libexthwplugin.so
-vendor/lib/libhdmiedid.so
-vendor/lib/libhdmipassthru.so
-vendor/lib/libhfp.so
-vendor/lib/libsndmonitor.so
-vendor/lib/libspkrprot.so
 
 # Audio FX modules
 system/etc/permissions/audiosphere.xml
