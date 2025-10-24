@@ -220,8 +220,11 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor|ad06856903b163a28135d6c8fd354258e3f0292c
 vendor/lib64/libdpmqmihal.so|67a75d6bd39f4bc825e14d21fa5b61e26ac82b22
 
-# DRM
+# DRM - from haydn V816.0.18.0.UKKMIXM
 vendor/bin/qseecomd
+vendor/lib64/libQSEEComAPI.so
+
+# DRM
 vendor/bin/seemp_healthd
 vendor/etc/init/qseecomd.rc
 vendor/lib64/libcpion.so
@@ -230,7 +233,6 @@ vendor/lib64/libdrmtime.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libqisl.so
-vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librpmb.so
 vendor/lib64/libSecureUILib.so
 vendor/lib64/libsecureui.so
