@@ -395,6 +395,7 @@ vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
 # OMX - from munch - RKQ1.211001.001
+vendor/etc/seccomp_policy/mediacodec.policy
 vendor/lib/libOmxVideoDSMode.so;DISABLE_DEPS|0771a2c2f34dc484f9b0b3625dd0a40361dec060
 vendor/lib/libOmxVpp.so;DISABLE_DEPS|4225151f1dd333888305bdfa787db4e0a06aa48c
 
