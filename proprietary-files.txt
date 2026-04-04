@@ -394,6 +394,13 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
+# Media - from guacamole - GM1911_11_H.38
+vendor/bin/hw/vendor.qti.media.c2@1.0-service|711fc86b6a7768ba844155b61debdda4e291767e
+vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
+vendor/etc/seccomp_policy/codec2.vendor.base.policy|18b92b02c7906f72c28219dafc37a6fab87f06af
+vendor/etc/seccomp_policy/codec2.vendor.ext.policy|6a9a9eb3261048f02805261568097410e1a23b2d
+vendor/lib/libqcodec2.so|25be46d8bc16ba2b88310dea1ea6e4ab25cbe1fa
+
 # Mlipay
 vendor/bin/mlipayd@1.1
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
@@ -412,10 +419,6 @@ vendor/lib64/unnhal-acc-adreno.so|9c5d8c601bad1c6ddf8e26ba9c7d9dc5511ac931
 vendor/lib64/unnhal-acc-common.so|0b1e861dc50ddaa2d9e9fc9e031bda50799d9c0a
 vendor/lib64/unnhal-acc-hta.so|4fecd9f66e1bc743ca0ca7077fc1b7a1a35d0636
 vendor/lib64/unnhal-acc-hvx.so|6a6b14ad086de426691ff5ef1ba903d631feea0a
-
-# OMX - from PNX - RKQ1.200906.002
-vendor/lib/libOmxVideoDSMode.so|5862b9d707ca00cd87b70a7f581df49fa3304d2c
-vendor/lib/libOmxVpp.so|7a9a96445b55f28013ea8f4ed767c7e245420c4f
 
 # Peripheral manager
 vendor/bin/pm-proxy

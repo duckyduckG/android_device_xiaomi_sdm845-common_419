@@ -90,15 +90,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.media.omx</name>
+        <name>android.hardware.media.c2</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IOmx</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IOmxStore</name>
+            <name>IComponentStore</name>
             <instance>default</instance>
         </interface>
     </hal>
